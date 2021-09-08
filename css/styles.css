@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    padding: 50px 25px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+}
+
+/* classi */
+.container-product {
+    height: 100vh;
+    position: relative;    
+}
+
+.shoes {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shoes h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.bg-red {
+    background-color: red;
+    color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+    color: yellow;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    color: green;
+}
+
